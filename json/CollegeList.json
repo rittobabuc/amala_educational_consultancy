@@ -1,0 +1,172 @@
+﻿{
+  "collegeList": [
+    {
+      "collegeCode": "HSG",
+      "collegeName": "Hillside Group of Institution",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Sofia",
+      "collegeName": "Sofia College of Nursing",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "smg",
+      "collegeName": "Sree Maruti Group of Institutions",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Koshi",
+      "collegeName": "Koshi Nursing College",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "St.George",
+      "collegeName": "St. George College of Nursing",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Maruti",
+      "collegeName": "Maruti College of Nursing (Akash Second College)",
+      "collegeDetail": "",
+      "stateCode": "BANGALORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "svs",
+      "collegeName": "SVS group of Institutions (Suraksha College of Nursing)",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Suyog",
+      "collegeName": "Suyog group of Institutions (Suyog College of Nursing)",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "JSS",
+      "collegeName": "JSS Medical College",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Bharati",
+      "collegeName": "Bharati group of Institute",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Heritage",
+      "collegeName": "Heritage City Nursing College",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "GG",
+      "collegeName": "Gopala Gowda College",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Mahajana",
+      "collegeName": "Mahajana group of Institute",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "VV",
+      "collegeName": "Vidya Vikas College of Nursing",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Apollo",
+      "collegeName": "Apollo Nursing College",
+      "collegeDetail": "",
+      "stateCode": "MYSORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Deepthi",
+      "collegeName": "Deepthi College of Nursing",
+      "collegeDetail": "",
+      "stateCode": "TAMILNADU (Selam)",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Shanmuga",
+      "collegeName": "Shanmuga College of Nursing & Allied Health",
+      "collegeDetail": "",
+      "stateCode": "TAMILNADU (Selam)",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "SK",
+      "collegeName": "Sree Krishna Institute of Nursing Education & Research",
+      "collegeDetail": "",
+      "stateCode": "TAMILNADU (Selam)",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "Paavai",
+      "collegeName": "Paavai Group of Institute (EGG, Nursing, Paramedical, Allied Health)",
+      "collegeDetail": "",
+      "stateCode": "TAMILNADU (Selam)",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "",
+      "collegeName": "Shevaroys College of Catering & Hotel Management",
+      "collegeDetail": "",
+      "stateCode": "TAMILNADU (Selam)",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "IG",
+      "collegeName": "Indira Gandhi group of Institute & Other Nursing Colleges",
+      "collegeDetail": "",
+      "stateCode": "KERALA",
+      "courseCode": "",
+      "imageURL":""
+    }
+  ]
+}

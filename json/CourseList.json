@@ -1,0 +1,144 @@
+﻿{
+  "courseList": [
+    {
+      "courseCode": "",
+      "courseName": "BSc NURSING",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc MLT",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc ACCIDENT & EMERGENCY CARE",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc OT & AT",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc RADIO GRAPHY & IMAGING TECHNOLOGY",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc CARDIAC CARE TECHNOLOGY",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc DIALYSIS",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc PHYSICIAN ASSISTANT ",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSC RADIO THERAPY",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSc IMAGING TECHNOLOGY (MIT)",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "BSC RESPERITORY THERAPY",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "MSC NURSING",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "GNM NURSING",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "PHYSIOTHERAPY (BPT)",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "D PHARM",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "B PHARM",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "M PHARM",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "PHAM D",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "AVIATION COURSE",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    },
+    {
+      "courseCode": "",
+      "courseName": "HOTEL MANAGEMENT COURSE",
+      "courseDetail": "",
+      "collegeCode": "",
+      "stateCode": "","sortoder":""
+    }
+  ]
+}

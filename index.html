@@ -1,51 +1,456 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amala Educational Consultancy</title>
-  <link rel="icon" href="images/amalaeducationalconsultancy_Icon.PNG">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Amala Educational Consultancy">
 
-  <link rel="stylesheet" href="~/../css/countDown.css">
+    <meta name="author" content="rittobabu">
+
+    <title>Amala Educational Consultancy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- CSS
+    ================================================== -->
+    <!-- rittobabu Icon font -->
+    <link rel="stylesheet" href="plugins/rittobabu-font/style.css">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-  <header>
-    <div class="topleft">
-      <img class="p-3" height="90" src="images/amalaeducationalconsultancy_logo.PNG" style="border-radius: 19px;">
-    </div>
-  </header>
-  <iframe class="embed-responsive-item pdfViewer" src="images/What's_next_after_12th.pdf#toolbar=0" width='100%'
-    height='100%'></iframe>
-<footer class="footer">
-  <p class="text-center">Copyright @2021 | Designed With by <a href="#">Ritto Babu</a></p>  
-  <ul class="social_footer_ul">
-  <li><a href="https://www.facebook.com/AMALA-Educational-Consultancy-104070684317385"><i class="fab fa-facebook-f"></i></a></li>
-  <li><a href="https://twitter.com/AmalaEducation1?s=09"><i class="fab fa-twitter"></i></a></li>
-  <li><a href="https://www.instagram.com/amala_educational_consultancy?r=nametag"><i class="fab fa-instagram"></i></a></li>
-  </ul>
-  </footer>
-  </div>
-</body>
+<body id="body">
 
+    <!--
+     Start Preloader
+     ==================================== -->
+    <div id="preloader">
+        <div class='preloader'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header class="navigation fixed-top">
+        <div class="container">
+            <!-- main nav -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- logo -->
+                <a class="navbar-brand logo" href="index.html">
+                    <img class="logo-default" src="images/logo.png" alt="logo" width="75px" />
+                    <img class="logo-white" src="images/logo-white.png" alt="logo" width="75px" />
+                </a>
+                <!-- /logo -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="course.html">Courses</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="colleges.html">Colleges</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="director-message.html">Director Message</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="contact.html">Contact-Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- /main nav -->
+        </div>
+    </header>
+    <div class="hero-slider">
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-1.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+                            AMALA  <br>
+                            Educational Consultancy (opc) PVT-LTD
+                        </h1>
+                        <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">
+                            GUIDE TO STUDENT'S LIFE
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider/slider-bg-2.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1" style="color: white;">KERALA | TAMILNADU | KARNATAKA</h3>
+                        <a href="contact.html" class="btn btn-main">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="service-2 section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <!-- section title -->
+                    <div class="title text-center">
+                        <h2>What Do We Offer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Voluptates, earum.
+                        </p>
+                        <div class="border"></div>
+                    </div>
+                    <!-- /section title -->
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img height="615" src="images/about/member.jpg" class="inline-block" alt="">
+                    <a href="course.html" class="btn btn-main mt-20">View All Courses</a>
+                </div>
+                <div class="col-md-8">
+                    <a href="course.html" class="a-color-black">
+                        <div class="row text-center">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <i class="tf-ion-ios-alarm-outline"></i>
+                                    <h4>BSc Nursing</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+                                </div>
+                            </div><!-- END COL -->
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <i class="tf-ion-ios-briefcase-outline"></i>
+                                    <h4>BSc Cardiac Care Technology </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+                                </div>
+                            </div><!-- END COL -->
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <i class="tf-ion-ios-email-outline"></i>
+                                    <h4>BSc Imaging Technology (MIT)</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+                                </div>
+                            </div><!-- END COL -->
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-item">
+                                    <i class="tf-ion-ios-locked-outline"></i>
+                                    <h4>BSc OT & AT</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+                                </div>
+                            </div><!-- END COL -->
+                        </div>
+                    </a>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="col-12">
+                    <div class="title text-center ">
+                        <h2> Universities & Institutes </h2>
+                        <div class="border"></div>
+                        <p>Amala Educational Consultancy (OPC) Private Limited is the authorized agent of leading colleges in Karnataka, TamilNadu and Kerala.</p>
+                    </div>
+                </div>
+                <!-- /section title -->
+                <!-- single blog post -->
+                <article class="col-md-4 col-sm-6 col-xs-12 clearfix ">
+                    <div class="post-item">
+                        <div class="media-wrapper">
+                            <img src="images/college/amalaEducationalConsultancy_HSG.jpg" alt="amazing caves coverimage" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h3><a href="single-post.html">Hillside Group of Institution</a></h3>
+                            <p>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                moon officia aute, non skateboard dolor brunch.
+                            </p>
+                            <a class="btn btn-main" href="single-post.html">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- /single blog post -->
+                <!-- single blog post -->
+                <article class="col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="post-item">
+                        <div class="media-wrapper">
+                            <img src="images/blog/post-2.jpg" alt="amazing caves coverimage" class="img-fluid">
+                        </div>
+
+                        <div class="content">
+                            <h3><a href="single-post.html">A Few Moments</a></h3>
+                            <p>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                moon officia aute, non skateboard dolor brunch.
+                            </p>
+                            <a class="btn btn-main" href="single-post.html">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- end single blog post -->
+                <!-- single blog post -->
+                <article class="col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="post-item">
+                        <div class="media-wrapper">
+                            <img src="images/blog/post-3.jpg" alt="amazing caves coverimage" class="img-fluid">
+                        </div>
+
+                        <div class="content">
+                            <h3><a href="single-post.html">Hints for Life</a></h3>
+                            <p>
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                moon officia aute, non skateboard dolor brunch.
+                            </p>
+                            <a class="btn btn-main" href="single-post.html">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- end single blog post -->
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section> <!-- end section -->
+    <!--
+    Start Call To Action
+    ==================================== -->
+    <section class="call-to-action section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Let's Go Together</h2>
+                    <p>If you have any message for us, please feel free to</p>
+                    <a href="contact.html" class="btn btn-main">Contact Us</a>
+                </div>
+            </div> 		<!-- End row -->
+        </div>   	<!-- End container -->
+    </section>   <!-- End section -->
+    <!--
+            Start Counter Section
+            ==================================== -->
+
+    <section class="counter-wrapper section-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="title">
+                        <h2>Our Journey – At a Glance</h2>
+                    </div>
+                </div>
+                <!-- first count item -->
+                <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+                    <div class="counters-item">
+                        <i class="tf-ion-ios-alarm-outline"></i>
+                        <div>
+                            <span class="counter" data-count="9">0</span>
+                        </div>
+                        <h3>
+                            Years of Experience
+                        </h3>
+                    </div>
+                </div>
+                <!-- end first count item -->
+                <!-- second count item -->
+                <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+                    <div class="counters-item">
+                        <i class="tf-ion-ios-analytics-outline"></i>
+                        <div>
+                            <span class="counter" data-count="1250">0</span>
+                        </div>
+                        <h3>Students Admitted</h3>
+                    </div>
+                </div>
+                <!-- end second count item -->
+                <!-- third count item -->
+                <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+                    <div class="counters-item">
+                        <i class="tf-ion-ios-compose-outline"></i>
+                        <div>
+                            <span class="counter" data-count="4">0</span>
+                        </div>
+                        <h3>States</h3>
+
+                    </div>
+                </div>
+                <!-- end third count item -->
+                <!-- fourth count item -->
+                <div class="col-md-3 col-sm-6 col-xs-6 text-center ">
+                    <div class="counters-item kill-border">
+                        <i class="tf-ion-ios-bolt-outline"></i>
+                        <div>
+                            <span class="counter" data-count="24">0</span>
+                        </div>
+                        <h3>Universities & Institutes</h3>
+                    </div>
+                </div>
+                <!-- end fourth count item -->
+            </div> 		<!-- end row -->
+        </div>   	<!-- end container -->
+    </section>   <!-- end section -->
+    <!-- Start Testimonial
+    =========================================== -->
+
+    <section class="testimonial section" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="title">
+                        <h2>What People Are Saying!						</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="testimonial-slider">
+                        <div class="item text-center">							
+                            <div class="client-details">
+                                <p>I highly recommend AMALA EDUCATIONAL CONSULTANCY for anyone who is struggling with the next steps of their studies. They truly cares about their clients both students and their parents.The students  will be motivated and encouraged enough to fulfill their dreams.If I could give 10 stars, I would.</p>
+                            </div>
+                            <div class="client-thumb">
+                                <img src="images/student-logo/Amala_Elizabath.jpeg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>Elizabeth</h3>
+                                <span>BSC Nursing</span>
+                            </div>
+                        </div>
+                        <div class="item text-center">
+                            <!-- client info -->
+                            <div class="client-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+                            </div>
+                            <!-- /client info -->
+                            <!-- client photo -->
+                            <div class="client-thumb">
+                                <img src="images/client-logo/clients-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>Emma Harrison</h3>
+                                <span>CEO , Company Name</span>
+                            </div>
+                            <!-- /client photo -->
+                        </div>
+                        <!-- /testimonial single -->
+                        <!-- testimonial single -->
+                        <div class="item text-center">
+                            <!-- client info -->
+                            <div class="client-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?</p>
+                            </div>
+                            <!-- /client info -->
+                            <!-- client photo -->
+                            <div class="client-thumb">
+                                <img src="images/client-logo/clients-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>Alexander Lucas</h3>
+                                <span>CEO , Company Name</span>
+                            </div>
+                            <!-- /client photo -->
+                        </div>
+                        <!-- /testimonial single -->
+                    </div>
+                </div> 		<!-- end col lg 12 -->
+            </div>	    <!-- End row -->
+        </div>       <!-- End container -->
+    </section>    <!-- End Section -->
+
+    <footer id="footer" class="bg-one">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <h3>about</h3>
+                        <p>Amala group of education is a successful with its wide directions for your future opportunities in various demanding fields of career. Explore the light of knowledge through the right pathways.</p>
+                    </div>
+                    <!-- End of .col-sm-3 -->
+
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <ul>
+                            <li><h3>Our Services</h3></li>
+                            <li><a href="#">PERSONALISED COUNSELLING</a></li>
+                            <li><a href="#">VALUE ADDED SERVICES</a></li>
+                            <li><a href="#">AFFILIATIONS & NETWORK</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of .col-sm-3 -->
+
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <ul>
+                            <li><h3>Quick Links</h3></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Colleges</a></li>
+                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of .col-sm-3 -->
+
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <ul>
+                            <li><h3>Connect with us Socially</h3></li>
+                            <li><a target="_blank"  href="https://www.facebook.com/AmalaEducationalConsultancy">Facebook</a></li>
+                            <li><a target="_blank"  href="https://wa.me/message/YNBNW7EAESIEF1">WhatsApp</a></li>
+                            <li><a target="_blank"  href="https://www.youtube.com/channel/UCL2FSLQGOybWuOnTzYJAVJw">Youtube</a></li>
+                            <li><a target="_blank"  href="https://www.instagram.com/amala_educational_consultancy">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of .col-sm-3 -->
+                </div>
+            </div> <!-- end container -->
+        </div>
+        <div class="footer-bottom">
+            <h5>Copyright 2016. All rights reserved.</h5>
+            <h6>Design and Developed by <a href="">rittobabu</a></h6>
+        </div>
+    </footer> <!-- end footer -->
+    <!-- end Footer Area
+    ========================================== -->
+    <!--
+    Essential Scripts
+    =====================================-->
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Form Validation -->
+    <script src="plugins/form-validation/jquery.form.js"></script>
+    <script src="plugins/form-validation/jquery.validate.min.js"></script>
+
+    <!-- Bootstrap4 -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+
+</body>
 </html>
-<style>
-  .embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  .pdfViewer {
-max-height: 645px; /* change height value */
-overflow-y: scroll;
-}
-</style>
