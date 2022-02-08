@@ -9,24 +9,48 @@
       "imageURL":""
     },
     {
+      "collegeCode": "SWAMI",
+      "collegeName": "SWAMI VIVEKANANDA GROUP OF INSTITUTE",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "St.Mary",
+      "collegeName": "St MARY’S GROUP OF INSTITUTE",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "MATHRU",
+      "collegeName": "MATHRU SREE COLLEGE OF NURSING",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "ATHENA",
+      "collegeName": "ATHENA GROUP OF INSTITUTE",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "AKASH",
+      "collegeName": "AKASH MEDICAL COLLEGE",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
       "collegeCode": "Sofia",
       "collegeName": "Sofia College of Nursing",
-      "collegeDetail": "",
-      "stateCode": "BANGALORE",
-      "courseCode": "",
-      "imageURL":""
-    },
-    {
-      "collegeCode": "smg",
-      "collegeName": "Sree Maruti Group of Institutions",
-      "collegeDetail": "",
-      "stateCode": "BANGALORE",
-      "courseCode": "",
-      "imageURL":""
-    },
-    {
-      "collegeCode": "Koshi",
-      "collegeName": "Koshi Nursing College",
       "collegeDetail": "",
       "stateCode": "BANGALORE",
       "courseCode": "",
@@ -49,10 +73,34 @@
       "imageURL":""
     },
     {
-      "collegeCode": "svs",
-      "collegeName": "SVS group of Institutions (Suraksha College of Nursing)",
+      "collegeCode": "SA",
+      "collegeName": "SREE ADHARSHANA COLLEGE OF NURSING",
       "collegeDetail": "",
-      "stateCode": "MYSORE",
+      "stateCode": "MANGLAPURAM",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "CITY",
+      "collegeName": "CITY COLLEGE OF NURSING",
+      "collegeDetail": "",
+      "stateCode": "MANGLAPURAM",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "SREENIVAS",
+      "collegeName": "SREENIVAS MEDICAL COLLEGE",
+      "collegeDetail": "",
+      "stateCode": "MANGLAPURAM",
+      "courseCode": "",
+      "imageURL":""
+    },
+    {
+      "collegeCode": "SREEDEVI",
+      "collegeName": "SREEDEVI MEDICAL COLLEGE",
+      "collegeDetail": "",
+      "stateCode": "MANGLAPURAM",
       "courseCode": "",
       "imageURL":""
     },
@@ -67,14 +115,6 @@
     {
       "collegeCode": "JSS",
       "collegeName": "JSS Medical College",
-      "collegeDetail": "",
-      "stateCode": "MYSORE",
-      "courseCode": "",
-      "imageURL":""
-    },
-    {
-      "collegeCode": "Bharati",
-      "collegeName": "Bharati group of Institute",
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
@@ -124,7 +164,7 @@
       "collegeCode": "Deepthi",
       "collegeName": "Deepthi College of Nursing",
       "collegeDetail": "",
-      "stateCode": "TAMILNADU (Selam)",
+      "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
       "imageURL":""
     },
@@ -132,7 +172,7 @@
       "collegeCode": "Shanmuga",
       "collegeName": "Shanmuga College of Nursing & Allied Health",
       "collegeDetail": "",
-      "stateCode": "TAMILNADU (Selam)",
+      "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
       "imageURL":""
     },
@@ -145,26 +185,26 @@
       "imageURL":""
     },
     {
-      "collegeCode": "Paavai",
-      "collegeName": "Paavai Group of Institute (EGG, Nursing, Paramedical, Allied Health)",
+      "collegeCode": "SHANMUGA",
+      "collegeName": "SHANMUGA GROUP OF INSTITUTE",
       "collegeDetail": "",
-      "stateCode": "TAMILNADU (Selam)",
+      "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
       "imageURL":""
     },
     {
-      "collegeCode": "",
-      "collegeName": "Shevaroys College of Catering & Hotel Management",
+      "collegeCode": "MAHENDRA",
+      "collegeName": "MAHENDRA GROUP OF INSTITUTE",
       "collegeDetail": "",
-      "stateCode": "TAMILNADU (Selam)",
+      "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
       "imageURL":""
     },
     {
-      "collegeCode": "IG",
-      "collegeName": "Indira Gandhi group of Institute & Other Nursing Colleges",
+      "collegeCode": "NPR",
+      "collegeName": "NPR GROUP OF INSTITUTE",
       "collegeDetail": "",
-      "stateCode": "KERALA",
+      "stateCode": "TAMIL NADU (Dindigul)",
       "courseCode": "",
       "imageURL":""
     }

@@ -27,7 +27,7 @@ function bindcollege() {;
                             '<img src="images/college/amalaEducationalConsultancy_' + element.collegeCode + '.jpg" alt="Amala Educational Consultancy College" class="img-fluid">' +
                         '</div>' +
                         '<div class="content">' +
-                            '<h3><a href="single-post.html">' + element.collegeName + '</a></h3>' +
+                            '<h3><a href="">' + element.collegeName + '</a></h3>' +
                             '<p>' + element.collegeDetail + '</p>' +
                             '<p>' + element.stateCode + '</p>' +
                         '</div>' +
