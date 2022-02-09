@@ -5,24 +5,24 @@
       "collegeName": "Hillside Group of Institution",
       "collegeDetail": "",
       "stateCode": "BANGALORE",
-      "courseCode": "",
-      "imageURL":""
+      "courseCode": "BSc IMAGING TECHNOLOGY (MIT),BSc MLT, BSc OT & AT,BSc DIALYSIS,PHYSIOTHERAPY (BPT),D PHARM,B PHARM,M PHARM ,PHARM D",
+      "imageCode": "HSG"
     },
     {
       "collegeCode": "SWAMI",
       "collegeName": "SWAMI VIVEKANANDA GROUP OF INSTITUTE",
       "collegeDetail": "",
       "stateCode": "BANGLORE",
-      "courseCode": "",
-      "imageURL":""
+      "courseCode": "BSc MIT,BSc  MLT,BSc DIALYSIS,BSc OT & AT,PHYSIOTHERAPY (BPT)",
+      "imageCode": "SWAMI"
     },
     {
-      "collegeCode": "St.Mary",
+      "collegeCode": "St.MARY",
       "collegeName": "St MARY’S GROUP OF INSTITUTE",
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":""
     },
     {
       "collegeCode": "MATHRU",
@@ -30,7 +30,7 @@
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":""
     },
     {
       "collegeCode": "ATHENA",
@@ -38,7 +38,7 @@
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"ATHENA"
     },
     {
       "collegeCode": "AKASH",
@@ -46,7 +46,7 @@
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"AKASH"
     },
     {
       "collegeCode": "Sofia",
@@ -54,7 +54,7 @@
       "collegeDetail": "",
       "stateCode": "BANGALORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Sofia"
     },
     {
       "collegeCode": "St.George",
@@ -62,23 +62,23 @@
       "collegeDetail": "",
       "stateCode": "BANGALORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"St.George"
     },
     {
+      "imageCode": "Maruti",
       "collegeCode": "Maruti",
       "collegeName": "Maruti College of Nursing (Akash Second College)",
       "collegeDetail": "",
       "stateCode": "BANGALORE",
-      "courseCode": "",
-      "imageURL":""
+      "courseCode": "Maruti"
     },
     {
-      "collegeCode": "SA",
+      "collegeCode": "SREE",
       "collegeName": "SREE ADHARSHANA COLLEGE OF NURSING",
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":""
     },
     {
       "collegeCode": "CITY",
@@ -86,7 +86,7 @@
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"CITY"
     },
     {
       "collegeCode": "SREENIVAS",
@@ -94,7 +94,7 @@
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"SREENIVAS"
     },
     {
       "collegeCode": "SREEDEVI",
@@ -102,7 +102,7 @@
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"SREEDEVI"
     },
     {
       "collegeCode": "Suyog",
@@ -110,7 +110,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Suyog"
     },
     {
       "collegeCode": "JSS",
@@ -118,7 +118,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"JSS"
     },
     {
       "collegeCode": "Heritage",
@@ -126,7 +126,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Heritage"
     },
     {
       "collegeCode": "GG",
@@ -134,7 +134,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"GG"
     },
     {
       "collegeCode": "Mahajana",
@@ -142,7 +142,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Mahajana"
     },
     {
       "collegeCode": "VV",
@@ -150,7 +150,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"VV"
     },
     {
       "collegeCode": "Apollo",
@@ -158,7 +158,7 @@
       "collegeDetail": "",
       "stateCode": "MYSORE",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Apollo"
     },
     {
       "collegeCode": "Deepthi",
@@ -166,7 +166,7 @@
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Deepthi"
     },
     {
       "collegeCode": "Shanmuga",
@@ -174,7 +174,7 @@
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"Shanmuga"
     },
     {
       "collegeCode": "SK",
@@ -182,7 +182,7 @@
       "collegeDetail": "",
       "stateCode": "TAMILNADU (Selam)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"SK"
     },
     {
       "collegeCode": "SHANMUGA",
@@ -190,7 +190,7 @@
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"SHANMUGA"
     },
     {
       "collegeCode": "MAHENDRA",
@@ -198,7 +198,7 @@
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Selam)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"MAHENDRA"
     },
     {
       "collegeCode": "NPR",
@@ -206,7 +206,7 @@
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Dindigul)",
       "courseCode": "",
-      "imageURL":""
+      "imageCode":"NPR"
     }
   ]
 }
