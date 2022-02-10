@@ -41,17 +41,36 @@ function bindcollege() {
 
 function trigger(_collegeCode) {
     $("#CourseModalbody").empty();
+
     $.getJSON("json/CollegeList.json", function (data) {
-        var i = 1;
         var collegeList = data.collegeList.filter(function (element) { return element.collegeCode == _collegeCode; });
         collegeList.forEach(element => {
             myArray = element.courseCode.split(",");
             myArray.forEach(course => {
                 if (course != "") {
-                    $("#CourseModalbody").
-                    append(
-                        '<h4>' + i++ + ') ' + course + '</h4>'
-                    );
+                    $.getJSON("json/CourseList.json", function (data) {
+                        var courseDetail= data.courseList.filter(function (element) { return element.courseCode == course; });
+                        if(courseDetail!=undefined && courseDetail.length>0)
+                        {
+                            $("#CourseModalbody").
+                            append(
+                                '<div class="row model-item">'+
+                                    '<div class="col-md-12">'+
+                                        '<h6>'+ courseDetail[0].courseName + '</h6>'+
+                                    '</div>'+
+                                    '<div class="col-md-3">'+
+                                        '<p>4 Years</p>'+
+                                    '</div>'+
+                                    '<div class="col-md-6">'+
+                                        '<p>Bharathiyar University</p>'+
+                                    '</div>'+
+                                    '<div class="col-md-3">'+
+                                        '<a href="tel:+919745224964"><i class="tf-ion-android-call">Call</i></a>'+
+                                    '</div>'+
+                                '</div>'
+                            );
+                        }
+                    });
                 }
             });
         });
