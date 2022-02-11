@@ -5,140 +5,160 @@
       "courseName": "BSc NURSING",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_MLT",
       "courseName": "BSc MLT",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_AEC",
       "courseName": "BSc ACCIDENT & EMERGENCY CARE",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"3 Years"
     },
     {
       "courseCode": "B_OA",
       "courseName": "BSc OT & AT",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_RI",
       "courseName": "BSc RADIO GRAPHY & IMAGING TECHNOLOGY",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_CCT",
       "courseName": "BSc CARDIAC CARE TECHNOLOGY",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_DIALYSIS",
       "courseName": "BSc DIALYSIS",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_PA",
       "courseName": "BSc PHYSICIAN ASSISTANT ",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_RT",
       "courseName": "BSC RADIO THERAPY",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_MIT",
       "courseName": "BSc IMAGING TECHNOLOGY (MIT)",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "B_RESPERITORY",
       "courseName": "BSC RESPERITORY THERAPY",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "M_NURSING",
       "courseName": "MSC NURSING",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"2 Years"
     },
     {
       "courseCode": "GNM",
       "courseName": "GNM NURSING",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"3 Years"
     },
     {
       "courseCode": "BPT",
       "courseName": "PHYSIOTHERAPY (BPT)",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "D_PHARM",
       "courseName": "D PHARM",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"2 Years"
     },
     {
       "courseCode": "B_PHARM",
       "courseName": "B PHARM",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"4 Years"
     },
     {
       "courseCode": "M_PHARM",
       "courseName": "M PHARM",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"2 Years"
     },
     {
       "courseCode": "PHAM_D",
       "courseName": "PHAM D",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"6 Years"
     },
     {
       "courseCode": "AVIATION",
       "courseName": "AVIATION COURSE",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"3 Years"
     },
     {
       "courseCode": "HMC",
       "courseName": "HOTEL MANAGEMENT COURSE",
       "courseDetail": "",
       "collegeCode": "",
-      "stateCode": "","sortoder":""
+      "stateCode": "","sortoder":"",
+      "duration":"3 Years"
     }
   ]
 }

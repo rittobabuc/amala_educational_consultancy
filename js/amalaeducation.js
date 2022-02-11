@@ -58,13 +58,13 @@ function trigger(_collegeCode) {
                                     '<div class="col-md-12">'+
                                         '<h6>'+ courseDetail[0].courseName + '</h6>'+
                                     '</div>'+
-                                    '<div class="col-md-3">'+
-                                        '<p>4 Years</p>'+
-                                    '</div>'+
                                     '<div class="col-md-6">'+
-                                        '<p>Bharathiyar University</p>'+
+                                        '<p>'+ courseDetail[0].duration + '</p>'+
                                     '</div>'+
-                                    '<div class="col-md-3">'+
+                                    // '<div class="col-md-6">'+
+                                    //     '<p>'+ element.university + '</p>'+
+                                    // '</div>'+
+                                    '<div class="col-md-6">'+
                                         '<a href="tel:+919745224964"><i class="tf-ion-android-call">Call</i></a>'+
                                     '</div>'+
                                 '</div>'
