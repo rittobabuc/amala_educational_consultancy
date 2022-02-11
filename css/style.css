@@ -2471,3 +2471,7 @@ a:focus, a:hover {
 {
   color: white;
 }
+.courseModelfooter .col-md-6
+{    
+  max-width: 50%!important;
+}
