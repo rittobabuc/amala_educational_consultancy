@@ -2459,4 +2459,6 @@ a:focus, a:hover {
 }
 .courseModelfooter a {
   margin: 0;
+  font-size: 12px;
+  padding: 10px 30px;
 }
