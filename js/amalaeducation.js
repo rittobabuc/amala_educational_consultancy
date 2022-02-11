@@ -55,17 +55,11 @@ function trigger(_collegeCode) {
                             $("#CourseModalbody").
                             append(
                                 '<div class="row model-item">'+
-                                    '<div class="col-md-12">'+
+                                    '<div class="col-md-8">'+
                                         '<h6>'+ courseDetail[0].courseName + '</h6>'+
                                     '</div>'+
-                                    '<div class="col-md-6">'+
+                                    '<div class="col-md-4">'+
                                         '<p>'+ courseDetail[0].duration + '</p>'+
-                                    '</div>'+
-                                    // '<div class="col-md-6">'+
-                                    //     '<p>'+ element.university + '</p>'+
-                                    // '</div>'+
-                                    '<div class="col-md-6">'+
-                                        '<a href="tel:+919745224964"><i class="tf-ion-android-call">Call</i></a>'+
                                     '</div>'+
                                 '</div>'
                             );
