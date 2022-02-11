@@ -2462,3 +2462,12 @@ a:focus, a:hover {
   font-size: 12px;
   padding: 10px 30px;
 }
+.testimonial p span {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 2px;
+}
+.testimonial .title h2
+{
+  color: white;
+}
