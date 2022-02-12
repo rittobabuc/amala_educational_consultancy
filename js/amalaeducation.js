@@ -2,9 +2,10 @@ function bindcourse() {;
     $.getJSON("json/CourseList.json", function (data) {
         data.courseList.forEach(element => {
             var courseCode = "'" + element.courseCode + "'";
+            var courseName = "'" + element.courseName + "'";
             $("#coursediv").
             append(
-                '<div class="col-md-4 col-sm-4 col-xs-12" onclick="courseTrigger(' + courseCode + ')" >' +
+                '<div class="col-md-4 col-sm-4 col-xs-12" onclick="courseTrigger(' + courseCode + ',' + courseName + ')" >' +
                     '<div class="service-item"><i class="tf-ion-ios-book-outline"/>' +
                         '<h4>' + element.courseName + '</h4>' +
                         '<p>' + element.courseDetail + '</p>' +
@@ -39,8 +40,11 @@ function bindcollege() {
     });
 }
 
-function courseTrigger(_courseCode) {
+function courseTrigger(_courseCode,_courseName) {
     $("#CollegeModalbody").empty();
+    $("#lblCollegesModal").empty();    
+    _courseName=_courseName +' -Provided Colleges'
+    $("#lblCollegesModal").text(_courseName);    
     $.getJSON("json/CollegeList.json", function (data) {
         var collegeList = data.collegeList.filter(function (element) { return element.courseCode.includes(_courseCode); });
         collegeList.forEach(collegeDetail => {
