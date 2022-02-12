@@ -5,7 +5,7 @@
       "collegeName": "Hillside Group of Institution",
       "collegeDetail": "",
       "stateCode": "BANGALORE",
-      "courseCode": "B_NURSING,B_MIT,B_MLT, B_OA,B_DIALYSIS,BPT,D_PHARM,B_PHARM,M_PHARM ,PHARM_D,AVIATION, HMC",
+      "courseCode": "B_NURSING,B_MIT,B_MIT,B_RI,B_MLT, B_OA,B_DIALYSIS,BPT,D_PHARM,B_PHARM,M_PHARM ,PHARM_D,AVIATION, HMC",
       "imageCode": "HSG"
     },
     {
@@ -13,7 +13,7 @@
       "collegeName": "SWAMI VIVEKANANDA GROUP OF INSTITUTE",
       "collegeDetail": "",
       "stateCode": "BANGLORE",
-      "courseCode": "BSc MIT,B_MLT,B_DIALYSIS,B_OA,BPT",
+      "courseCode": "B_NURSING",
       "imageCode": "SWAMI"
     },
     {
@@ -22,15 +22,15 @@
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "B_NURSING",
-      "imageCode":""
+      "imageCode":"St.MARY"
     },
     {
-      "collegeCode": "MATHRU",
-      "collegeName": "MATHRU SREE COLLEGE OF NURSING",
+      "collegeCode": "MATHRUSHREE",
+      "collegeName": "MATHRUSHREE COLLEGE OF NURSING",
       "collegeDetail": "",
       "stateCode": "BANGLORE",
       "courseCode": "B_NURSING",
-      "imageCode":""
+      "imageCode":"MATHRUSHREE"
     },
     {
       "collegeCode": "ATHENA",
@@ -45,7 +45,7 @@
       "collegeName": "AKASH MEDICAL COLLEGE",
       "collegeDetail": "",
       "stateCode": "BANGLORE",
-      "courseCode": "B_NURSING",
+      "courseCode": "B_NURSING,B_MIT,B_DIALYSIS",
       "imageCode":"AKASH"
     },
     {
@@ -73,19 +73,19 @@
       "imageCode": "Maruti"
     },
     {
-      "collegeCode": "SREE",
+      "collegeCode": "ADHARSHANA",
       "collegeName": "SREE ADHARSHANA COLLEGE OF NURSING",
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "B_NURSING",
-      "imageCode":""
+      "imageCode":"ADHARSHANA"
     },
     {
       "collegeCode": "CITY",
       "collegeName": "CITY COLLEGE OF NURSING",
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
-      "courseCode": "B_NURSING",
+      "courseCode": "B_NURSING,B_RI,B_DIALYSIS,B_MIT",
       "imageCode":"CITY"
     },
     {
@@ -110,7 +110,7 @@
       "collegeDetail": "",
       "stateCode": "MANGLAPURAM",
       "courseCode": "AVIATION,HMC",
-      "imageCode":""
+      "imageCode":"AJ"
     },
     {
       "collegeCode": "Suyog",
@@ -145,14 +145,6 @@
       "imageCode":"GG"
     },
     {
-      "collegeCode": "Mahajana",
-      "collegeName": "Mahajana group of Institute",
-      "collegeDetail": "",
-      "stateCode": "MYSORE",
-      "courseCode": "B_NURSING",
-      "imageCode":"Mahajana"
-    },
-    {
       "collegeCode": "VV",
       "collegeName": "Vidya Vikas College of Nursing",
       "collegeDetail": "",
@@ -170,9 +162,9 @@
     },
     {
       "collegeCode": "Deepthi",
-      "collegeName": "Deepthi College of Nursing",
+      "collegeName": "Deepthi College of Nursing (Girls Only)",
       "collegeDetail": "",
-      "stateCode": "TAMIL NADU (Selam)",
+      "stateCode": "TAMIL NADU (Namakkal)",
       "courseCode": "B_NURSING",
       "imageCode":"Deepthi"
     },
@@ -181,12 +173,12 @@
       "collegeName": "Shanmuga College of Nursing & Allied Health",
       "collegeDetail": "",
       "stateCode": "TAMIL NADU (Selam)",
-      "courseCode": "B_NURSING,GNM,M_NURSING,B_OA,B_PA,B_RT,B_RI,B_RT",
+      "courseCode": "B_NURSING,GNM,M_NURSING,B_OA,B_PA,B_RT,B_RI",
       "imageCode":"Shanmuga"
     },
     {
       "collegeCode": "SK",
-      "collegeName": "Sree Krishna Institute of Nursing Education & Research",
+      "collegeName": "Sree Krishna Institute of Nursing Education & Research (Girls Only)",
       "collegeDetail": "",
       "stateCode": "TAMILNADU (Selam)",
       "courseCode": "B_NURSING",
