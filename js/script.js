@@ -147,7 +147,7 @@
         $(form).ajaxSubmit({
           type: 'POST',
           data: $(form).serialize(),
-          url: 'https://script.google.com/macros/s/AKfycbxkYU8Lt0ne9dQJ866Z9QqwIFqC9boNcyNUSgZ8yLbJIpc9GUGmodBjS4yXC51krXE4bg/exec',
+          url: 'https://script.google.com/macros/s/AKfycbzBfqrvemUsZSp9zUrbqopbBcFsEF1ckhHlENpPhMN1xE7g0R1gxSqHbglHA5TC0AKVtA/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
           },
