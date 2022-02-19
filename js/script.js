@@ -154,16 +154,26 @@
           url: 'https://script.google.com/macros/s/AKfycbxkzPSgnrOFlDpMAoxYbN0kA036x7FJ_Sy-KXhHnlYzmQ9esLo9oS1Ib43oieJMgU1bDA/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
+            clearContactForm();
           },
           error: function () {
             $('#contact-form #error').fadeIn();
+            clearContactForm();
           }
         });
       }
     }
 
   );
-
+function clearContactForm()
+{
+  $('#name').val("");
+  $('#email').val("");
+  $('#mobileno').val("");
+  $('#whatsappno').val("");
+  $('#subject').val("");
+  $('#message').val("");
+}
   /* ========================================================================= */
   /*	On scroll fade/bounce effect
   /* ========================================================================= */
