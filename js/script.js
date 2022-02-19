@@ -117,6 +117,9 @@
           required: true,
           email: true
         },
+        mobileno: {
+          required: true
+        },
         subject: {
           required: false
         },
@@ -131,6 +134,9 @@
         },
         email: {
           required: 'Please put your email address'
+        },
+        mobileno: {
+          required: 'Please put your mobile no'
         },
         message: {
           required: 'Put some messages here?',
