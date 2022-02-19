@@ -151,7 +151,7 @@
         $(form).ajaxSubmit({
           type: 'POST',
           data: $(form).serialize(),
-          url: 'https://script.google.com/macros/s/AKfycbwl0dd461k9JPRodi-U3R-bwzqHbs8FIPFexc9fI-qcK8HYLq3S3eEEF4jH_bV4JITr0g/exec',
+          url: 'https://script.google.com/macros/s/AKfycbxkzPSgnrOFlDpMAoxYbN0kA036x7FJ_Sy-KXhHnlYzmQ9esLo9oS1Ib43oieJMgU1bDA/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
           },
