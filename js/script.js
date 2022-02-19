@@ -144,10 +144,14 @@
         }
       },
       submitHandler: function (form) {
+        debugger;
+        var data=$(form).serialize();
+
+        
         $(form).ajaxSubmit({
           type: 'POST',
           data: $(form).serialize(),
-          url: 'https://script.google.com/macros/s/AKfycbzrQELY4JkcaZMKhBDG16MQuUHWsBqh59ey_ECCEc40X3a9p0WfEi2XrcqOKgu6V9Ke/exec',
+          url: 'https://script.google.com/macros/s/AKfycbyzWp2YAyTp3lGW3Pk_WUy8Ro8jAwO3-o4UzGY1CawRK3swcrtvwPSqTFKQsLCUqSTRNw/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
           },
