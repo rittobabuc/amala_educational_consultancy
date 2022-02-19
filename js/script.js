@@ -141,7 +141,7 @@
         $(form).ajaxSubmit({
           type: 'POST',
           data: $(form).serialize(),
-          url: 'sendmail.php',
+          url: 'https://script.google.com/macros/s/AKfycbysN2CNgjyUZtYRq9KqjseDiJL4DAJxdO8VjH9h6lZMrs33q11QntSF8JeldQGJyleU7A/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
           },
