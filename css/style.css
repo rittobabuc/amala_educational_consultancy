@@ -2450,6 +2450,11 @@ a:focus, a:hover {
 }
 .model-item h6 {
   /* text-decoration: underline; */
+  text-transform: uppercase;
+  text-align: center !important;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
 }
 .model-item {
   box-shadow: inset 0px 0px 5px 2px #0e699e;
