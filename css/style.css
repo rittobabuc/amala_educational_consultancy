@@ -2448,12 +2448,10 @@ a:focus, a:hover {
     padding: 10px 15px;
   }
 }
-.model-item h6 {
-  /* text-decoration: underline; */
+.model-item h6,p {
   text-transform: uppercase;
   text-align: center !important;
   margin: auto;
-  width: 90%;
   padding: 10px;
 }
 .model-item {
