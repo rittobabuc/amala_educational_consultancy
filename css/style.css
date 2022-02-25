@@ -2449,7 +2449,7 @@ a:focus, a:hover {
   }
 }
 .model-item h6 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .model-item {
   box-shadow: inset 0px 0px 5px 2px #0e699e;
