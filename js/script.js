@@ -47,7 +47,6 @@
     } else {
       //console.log('a');
       $('.navigation').removeClass('sticky-header');
-      debugger
       $('#highlight-active').addClass('highlight-active-white');
       $('#highlight-active').removeClass('highlight-active-black');
       $('.active').find('.nav-link').attr('style','color:#0e699e');
