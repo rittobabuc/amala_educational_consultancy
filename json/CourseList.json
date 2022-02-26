@@ -2,7 +2,7 @@
   "courseList": [
     {
       "courseCode": "B_NURSING",
-      "courseName": "BSc NURSING",
+      "courseName": "BSc Nursing",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -18,7 +18,7 @@
     },
     {
       "courseCode": "B_AEC",
-      "courseName": "BSc ACCIDENT & EMERGENCY CARE",
+      "courseName": "BSc Accident & Emergency Care",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -34,7 +34,7 @@
     },
     {
       "courseCode": "B_RI",
-      "courseName": "BSc RADIO GRAPHY & IMAGING TECHNOLOGY",
+      "courseName": "BSc Radiography & Imaging Technology",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -42,7 +42,7 @@
     },
     {
       "courseCode": "B_CCT",
-      "courseName": "BSc CARDIAC CARE TECHNOLOGY",
+      "courseName": "BSc Cardiac Care Technology",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -50,7 +50,7 @@
     },
     {
       "courseCode": "B_DIALYSIS",
-      "courseName": "BSc DIALYSIS",
+      "courseName": "BSc Dialysis",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -58,7 +58,7 @@
     },
     {
       "courseCode": "B_PA",
-      "courseName": "BSc PHYSICIAN ASSISTANT ",
+      "courseName": "BSc Physician Assistant",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -66,7 +66,7 @@
     },
     {
       "courseCode": "B_RT",
-      "courseName": "BSC RADIO THERAPY",
+      "courseName": "BSc Radiotherapy",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -74,7 +74,7 @@
     },
     {
       "courseCode": "B_MIT",
-      "courseName": "BSc IMAGING TECHNOLOGY (MIT)",
+      "courseName": "BSc Imaging Technology (MIT)",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -82,7 +82,7 @@
     },
     {
       "courseCode": "B_RESPERITORY",
-      "courseName": "BSC RESPERITORY THERAPY",
+      "courseName": "BSc Resperitory Therapy",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -90,7 +90,7 @@
     },
     {
       "courseCode": "M_NURSING",
-      "courseName": "MSC NURSING",
+      "courseName": "MSc Nursing",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -98,7 +98,7 @@
     },
     {
       "courseCode": "GNM",
-      "courseName": "GNM NURSING",
+      "courseName": "GNM Nursing",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -106,7 +106,7 @@
     },
     {
       "courseCode": "BPT",
-      "courseName": "PHYSIOTHERAPY (BPT)",
+      "courseName": "Physiotherapy (BPT)",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -146,7 +146,7 @@
     },
     {
       "courseCode": "AVIATION",
-      "courseName": "AVIATION COURSE",
+      "courseName": "Aviation Courses",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
@@ -154,7 +154,7 @@
     },
     {
       "courseCode": "HMC",
-      "courseName": "HOTEL MANAGEMENT COURSE",
+      "courseName": "Hotel Management Courses",
       "courseDetail": "",
       "collegeCode": "",
       "stateCode": "","sortoder":"",
