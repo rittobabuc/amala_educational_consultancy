@@ -43,7 +43,10 @@
       $('.navigation').addClass('sticky-header');
       $('#highlight-active').addClass('highlight-active-black');
       $('#highlight-active').removeClass('highlight-active-white');
-      $('.active').find('.nav-link').attr('style','color:white');
+      if($(window).width()>990)
+      {
+        $('.active').find('.nav-link').attr('style','color:white');
+      }
     } else {
       //console.log('a');
       $('.navigation').removeClass('sticky-header');

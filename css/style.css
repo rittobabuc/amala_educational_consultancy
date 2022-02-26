@@ -451,6 +451,14 @@ a:focus, a:hover {
   .navigation .nav-link {
     padding: 10px !important;
   }
+  .highlight-active-white,.highlight-active-black
+  {
+    display: none;
+  }
+  .nav-item .active .nav-link
+  {
+    color:#0e699e;
+  }
 }
 
 .navigation .dropdown:hover .dropdown-menu {
