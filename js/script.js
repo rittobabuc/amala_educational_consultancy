@@ -41,9 +41,16 @@
     if (scroll > 65) {
       //console.log('a');
       $('.navigation').addClass('sticky-header');
+      $('#highlight-active').addClass('highlight-active-black');
+      $('#highlight-active').removeClass('highlight-active-white');
+      $('.active').find('.nav-link').attr('style','color:white');
     } else {
       //console.log('a');
       $('.navigation').removeClass('sticky-header');
+      debugger
+      $('#highlight-active').addClass('highlight-active-white');
+      $('#highlight-active').removeClass('highlight-active-black');
+      $('.active').find('.nav-link').attr('style','color:#0e699e');
     }
   });
 

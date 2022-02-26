@@ -435,6 +435,7 @@ a:focus, a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: .2s ease-in-out 0s;
+  font-weight: bold;
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
@@ -2478,10 +2479,18 @@ a:focus, a:hover {
 {    
   max-width: 50%!important;
 }
-.nav-item.active div
+.nav-item.active .highlight-active-white
 {
   height: 20px;
   background: white;
+  margin-top: -43px;
+  border-radius: 34px;
+  border: 1px;
+}
+.nav-item.active .highlight-active-black
+{
+  height: 20px;
+  background: #0e699e;
   margin-top: -43px;
   border-radius: 34px;
   border: 1px;
