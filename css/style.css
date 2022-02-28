@@ -2458,7 +2458,6 @@ a:focus, a:hover {
   }
 }
 .model-item h6,p {
-  text-transform: uppercase;
   text-align: center !important;
   margin: auto;
   padding: 10px;
