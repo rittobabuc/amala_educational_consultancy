@@ -110,7 +110,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .btn:focus {
@@ -126,7 +126,7 @@ a:focus, a:hover {
 }
 
 .section-sm {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .section-xs {
@@ -870,7 +870,7 @@ a:focus, a:hover {
  Call To Action 1
 ==================================================================*/
 .call-to-action {
-  padding: 100px 0;
+  padding: 80px 0;
   background: url("../images/call-to-action/call-to-action-bg-2.jpg");
   background-size: cover;
   color: #fff;
@@ -1500,7 +1500,7 @@ a:focus, a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  padding-top: 100px;
+  padding-top: 50px;
   background: #0e699e;
   position: relative;
   padding-bottom: 0px;
@@ -1591,7 +1591,7 @@ a:focus, a:hover {
   Latest Posts
 ==================================================================*/
 .blog {
-  padding-bottom: 110px;
+  padding-bottom: 60px;
   padding-top: 70px;
   background: #F6F6F6;
 }
@@ -2052,7 +2052,7 @@ a:focus, a:hover {
 .top-footer {
   background-color: #222222;
   border-top: 1px solid #404040;
-  padding: 100px 0 80px;
+  padding: 50px 0 60px;
 }
 
 .top-footer h3 {
