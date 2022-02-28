@@ -126,7 +126,7 @@ a:focus, a:hover {
 }
 
 .section-sm {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .section-xs {
@@ -1241,7 +1241,7 @@ a:focus, a:hover {
   Services section
 ==================================================================*/
 .services {
-  padding: 100px 0 130px;
+  padding: 50px 0 50px;
 }
 
 .services .service-block.color-bg {
@@ -1548,7 +1548,7 @@ a:focus, a:hover {
 ==================================================================*/
 .director {
   padding-bottom: 0px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .director:before {
@@ -2060,7 +2060,7 @@ a:focus, a:hover {
 .top-footer {
   background-color: #222222;
   border-top: 1px solid #404040;
-  padding: 50px 0 60px;
+  padding: 50px 0 40px;
 }
 
 .top-footer h3 {
@@ -2465,7 +2465,7 @@ a:focus, a:hover {
     padding: 10px 15px;
   }
 }
-.model-item h6,p {
+.model-item h6 p {
   text-align: center !important;
   margin: auto;
   padding: 10px;
