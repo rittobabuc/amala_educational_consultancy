@@ -17,14 +17,6 @@
       "imageCode": "SWAMI"
     },
     {
-      "collegeCode": "St.MARY",
-      "collegeName": "St Mary’s Group of Institute",
-      "collegeDetail": "",
-      "stateCode": "BANGLORE",
-      "courseCode": "B_NURSING",
-      "imageCode":"St.MARY"
-    },
-    {
       "collegeCode": "MATHRUSHREE",
       "collegeName": "Mathrushree College of Nursing",
       "collegeDetail": "",
@@ -207,6 +199,14 @@
       "stateCode": "TAMIL NADU (Dindigul)",
       "courseCode": "B_NURSING,B_CCT,B_OA,B_MLT",
       "imageCode":"NPR"
+    },
+    {
+      "collegeCode": "St.MARY",
+      "collegeName": "St Mary’s Group of Institute",
+      "collegeDetail": "",
+      "stateCode": "BANGLORE",
+      "courseCode": "B_NURSING",
+      "imageCode":"St.MARY"
     }
   ]
 }
