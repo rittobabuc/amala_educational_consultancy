@@ -47,15 +47,8 @@
             <span></span>
         </div>
     </div>
-    <!--
-    End Preloader
-    ==================================== -->
-    <!--
-    Fixed Navigation
-    ==================================== -->
     <header class="navigation fixed-top">
         <div class="container">
-            <!-- main nav -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <!-- logo -->
                 <a class="navbar-brand logo" href="index.html">
@@ -73,15 +66,15 @@
                         <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="course.html">Courses</a>
-                            <div id="highlight-active" class="highlight-active-white"></div>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="colleges.html">Colleges</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="after_12th.html">After 12th</a>
+                            <div id="highlight-active" class="highlight-active-white"></div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html">About Us</a>
@@ -95,59 +88,30 @@
                     </ul>
                 </div>
             </nav>
-            <!-- /main nav -->
         </div>
     </header>
-    <!--
-    End Fixed Navigation
-    ==================================== -->
-
     <section class="single-page-header" style="padding: 140px 0 20px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Courses</h2>
+                    <h2>Courses After 12th</h2>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--
-    Start About Section
-    ==================================== -->
-    <section class="service-2 section">
+    <section class="section">
         <div class="container">
-            <div class="row text-center" id="coursediv">
+            <div class="row">
+                <div class="col-lg-12">
+                        <div class="course">
+                            <img src="images/courses/after_12th.jpg" class="img-fluid" alt="after_12th">                            
+                        </div>
+                </div> 		<!-- end col lg 12 -->
+            </div>	    <!-- End row -->
+        </div>       <!-- End container -->
+    </section>    <!-- End Section -->
 
-            </div>
-        </div> <!-- End row -->
-    </section> <!-- End section -->
-
-    <!-- Button trigger modal -->
-    <button id="btnModelpopup" style="display: none;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"></button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="lblCollegesModal"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" id="CollegeModalbody">
-                </div>
-                <div class="row courseModelfooter" style="margin: 0px;margin-bottom: 10px;">
-                  <div class="col-md-6">  
-                      <a href="tel:+919745224964" style="text-align: left;" class="btn btn-main mt-20"><i class="tf-ion-android-call"></i> Call Us</a>
-                    </div>
-                    <div class="col-md-6" style="text-align: right;">  <a href="mailto:amalaeducational@gmail.com"    class="btn btn-main mt-20"><i class="tf-ion-android-mail"></i> Email</a>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
     <footer id="footer" class="bg-one">
         <div class="top-footer">
             <div class="container">
@@ -217,17 +181,6 @@
 
     <!-- Custom js -->
     <script src="js/script.js"></script>
-    <script src="js/amalaeducation.js"></script>
-    <style>
-        .service-2 .service-item {
-            padding: 20px;
-        }
-    </style>
-    <script>
-        $(document).ready(function () {
-            bindcourse();
-        });
-    </script>
 
 </body>
 </html>
