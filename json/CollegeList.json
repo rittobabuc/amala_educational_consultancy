@@ -1,14 +1,6 @@
 ﻿{
   "collegeList": [
     {
-      "collegeCode": "HSG",
-      "collegeName": "Hillside Group of Institution",
-      "collegeDetail": "",
-      "stateCode": "BANGALORE",
-      "courseCode": "B_NURSING,B_MIT,B_MIT,B_RI,B_MLT, B_OA,B_DIALYSIS,BPT,D_PHARM,B_PHARM,M_PHARM ,PHARM_D,AVIATION, HMC",
-      "imageCode": "HSG"
-    },
-    {
       "collegeCode": "SWAMI",
       "collegeName": "Swami Vivekananda Group of Institute",
       "collegeDetail": "",
