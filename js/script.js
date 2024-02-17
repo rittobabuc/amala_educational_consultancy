@@ -160,7 +160,7 @@
         $(form).ajaxSubmit({
           type: 'POST',
           data: $(form).serialize(),
-          url: 'https://script.google.com/macros/s/AKfycbz4-wMgKLf_zkOo0c_feumORm0w9qPLJ9TYYTFUKqnU39oGzvZCkvMrSQCLXLZLPUp78Q/exec',
+          url: 'https://script.google.com/macros/s/AKfycbxSojhqjznxhy-jUCw3IQKchDuLpi3xy7cpRVDVJOU7Fk4KH0PauBNoaouUr_ZfAP1FrA/exec',
           success: function () {
             $('#contact-form #success').fadeIn();
             clearContactForm();
