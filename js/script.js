@@ -137,9 +137,9 @@
         }
       },
       messages: {
-        user_name: {
+        name: {
           required: 'Come on, you have a name don\'t you?',
-          minlength: 'Your name must consist of at least 2 characters'
+          minlength: 'Your name must consist of at least 4 characters'
         },
         email: {
           required: 'Please put your email address'
@@ -149,27 +149,39 @@
         },
         message: {
           required: 'Put some messages here?',
-          minlength: 'Your name must consist of at least 2 characters'
+          minlength: 'Your message must consist of at least 2 characters'
         }
       },
       submitHandler: function (form) {
-        debugger;
-        var data=$(form).serialize();
-
+        // Show loading state
+        $('#contact-submit').prop('disabled', true).val('Sending...');
         
-        $(form).ajaxSubmit({
-          type: 'POST',
-          data: $(form).serialize(),
-          url: 'https://script.google.com/macros/s/AKfycbxSojhqjznxhy-jUCw3IQKchDuLpi3xy7cpRVDVJOU7Fk4KH0PauBNoaouUr_ZfAP1FrA/exec',
-          success: function () {
+        // Use iframe submission to bypass CORS
+        var $form = $(form);
+        var iframe = $('<iframe name="contact-iframe" style="display:none;"></iframe>');
+        $('body').append(iframe);
+        
+        // Set form target to iframe
+        $form.attr('target', 'contact-iframe');
+        $form.attr('action', 'https://script.google.com/macros/s/AKfycbxSojhqjznxhy-jUCw3IQKchDuLpi3xy7cpRVDVJOU7Fk4KH0PauBNoaouUr_ZfAP1FrA/exec');
+        $form.attr('method', 'POST');
+        
+        // Handle iframe load event
+        iframe.on('load', function() {
+          setTimeout(function() {
             $('#contact-form #success').fadeIn();
             clearContactForm();
-          },
-          error: function () {
-            $('#contact-form #error').fadeIn();
-            clearContactForm();
-          }
+            $('#contact-submit').prop('disabled', false).val('Submit');
+            iframe.remove();
+            $form.removeAttr('target');
+          }, 1000);
         });
+        
+        // Submit form normally (will submit to iframe)
+        form.submit();
+        
+        // Prevent default jQuery validation submission
+        return false;
       }
     }
 
