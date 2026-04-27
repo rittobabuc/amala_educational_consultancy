@@ -233,6 +233,24 @@ function clearContactForm()
   // -----------------------------
   $(window).scroll(function () {
     counter();
+    animateOnScroll();
   });
+
+  // -----------------------------
+  //  Scroll-triggered Animate.css
+  // -----------------------------
+  function animateOnScroll() {
+    var windowBottom = $(window).scrollTop() + $(window).height();
+    $('.animate-on-scroll').each(function () {
+      var elemTop = $(this).offset().top;
+      if (elemTop < windowBottom - 60) {
+        var animation = $(this).data('animation') || 'fadeInUp';
+        $(this).addClass('animated ' + animation);
+      }
+    });
+  }
+
+  // Run once on page load for elements already in view
+  animateOnScroll();
 
 })(jQuery);
